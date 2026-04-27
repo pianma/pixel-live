@@ -34,8 +34,6 @@ dependencies {
     annotationProcessor 'org.springframework.boot:spring-boot-configuration-processor'
     annotationProcessor 'org.projectlombok:lombok'
 
-    // Test (이 부분이 핵심 수정 사항이야!)
-    // 존재하지 않는 개별 테스트 스타터들을 삭제하고, 표준 스타터로 통합함
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     testImplementation 'org.springframework.security:spring-security-test'
 
